@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(109, 109, 248);
+        }
+    </style>
+   
+  
+</head>
+<body>
+   <header class="cabe">
+    <img src="s (1)png" alt="">
+   </header>
+    <div class="ess">
+        esportes com bola
+    </div>
+  
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="WhatsApp_Image_2023-06-27_at_15.21.32__1_-removebg-preview.png" alt=""></div>
+      <div class="swiper-slide"><img src="WhatsApp_Image_2023-06-27_at_17.27.44-removebg-preview.png" alt=""></div>
+      <div class="swiper-slide"><img src="WhatsApp_Image_2023-06-27_at_17.34.05-removebg-preview.png" alt=""></div>
+      <div class="swiper-slide"><img src="WhatsApp Image 2023-06-27 at 17.27.44 (1).jpeg" alt=""></div>
+    
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>constswiper = new Swiper('.swiper', {
+    speed: 400,
+    spaceBetween: 100,
+    
+  });</script>
+  <script>
+ constswiper = new Swiper('.swiper', {
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    bulletElement:true,
+  },
+});
+</script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+  grid: {
+    rows: 2,
+    fill: column,
+  },
+});
+  </script>
+  <script>
+    constswiper = new Swiper('.swiper', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+  </script>
+  <footer class="foo">
+    <img src="basa.jpe" alt="">
+  </footer>
+</body>
+</html>

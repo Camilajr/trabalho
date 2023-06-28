@@ -1,0 +1,46 @@
+.ess{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 78px;
+    color: #ffff;
+    align-content: center;
+    align-items: center;
+    margin-left: 48px;
+}
+@media screen and (max-width: 600px){
+    .ess{
+        width: 100%;
+        padding: 12px;
+        margin-left: 78px;
+
+    }
+}
+    
+@media screen and (max-width: 412px){
+      .ess{
+        margin-left: 47px;
+      }
+     .foo .cabe{
+        margin-right: 56px;
+     }
+}
+@media screen and (max-width: 280px){
+    .ess{
+       
+       padding: 0;
+      margin-left: 12px;
+    }
+}
+.swiper-wrapper image{
+    width: 100%;
+    
+}
+.foo{
+    background: linear-gradient(rgb(109, 109, 248) ,#ffff);
+    width: 436px;
+    height: 537px;
+   
+}
+.cabe{
+    background-color: #221f1f;
+    width: 436px;
+}
